@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".NumbersActivity"
+            android:label="@string/number"
+            android:parentActivityName=".MainActivity" >
+            <!-- Parent activity meta-data to support API level 4+ -->
+            <meta-data
+                android:name=".MainActivity"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>
