@@ -23,7 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/category_family"
-        android:text="@string/category_family" />
+        android:text="@string/category_family"
+        android:onClick="openFamilyList"/>
 
     <TextView
         android:id="@+id/colors"
@@ -40,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/category_phrases"
-        android:text="@string/category_phrases" />
+        android:text="@string/category_phrases"
+        android:onClick="openPhrasesList"/>
 
 </LinearLayout>
