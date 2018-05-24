@@ -31,7 +31,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/category_colors"
-        android:text="@string/category_colors" />
+        android:text="@string/category_colors"
+        android:onClick="openColorsList"/>
 
     <TextView
         android:id="@+id/phrases"
